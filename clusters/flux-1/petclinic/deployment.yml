@@ -17,7 +17,7 @@ spec:
         app.kubernetes.io/part-of: spring-petclinic
     spec:
       containers:
-      - image: spring-petclinic:latest
+      - image: harbor-repo.vmware.com/dockerhub-proxy-cache/springcommunity/spring-framework-petclinic:latest
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
