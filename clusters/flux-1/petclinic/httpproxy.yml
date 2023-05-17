@@ -5,7 +5,7 @@ metadata:
   namespace: app-team-1
 spec:
   virtualhost:
-    fqdn: petclinic.10.220.56.101.nip.io
+    fqdn: petclinic25.10.220.56.101.nip.io
   routes:
     - conditions:
       - prefix: /
