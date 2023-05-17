@@ -4,6 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/name: spring-petclinic
   name: spring-petclinic
+  namespace: app-team-1
 spec:
   replicas: 1
   selector:
@@ -38,6 +39,7 @@ metadata:
   labels:
     app.kubernetes.io/name: spring-petclinic
   name: spring-petclinic
+  namespace: app-team-1
 spec:
   ports:
   - port: 80
